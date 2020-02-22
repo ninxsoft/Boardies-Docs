@@ -1,2 +1,2 @@
-# Boardies-Docs
-Documentation generator for Boardies.app
+# Boardies-Resources
+Website generator for Boardies resources
