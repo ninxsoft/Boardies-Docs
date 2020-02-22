@@ -1,0 +1,52 @@
+site_name: 'Boardies Resources'
+site_description: 'All of the resources relating to Boardies'
+site_author: 'Nindi Gill'
+site_url: 'https://dashboardies.com/resources'
+
+copyright: 'Copyright &copy; 2020 Boardies Software'
+
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'web'
+  feature:
+    tabs: true
+
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'facebook'
+      link: https://www.facebook.com/dashboardies
+    - type: 'instagram'
+      link: 'https://www.instagram.com/_dashboardies/'
+    - type: 'twitter'
+      link: 'https://twitter.com/dashboardies'
+    - type: 'slack'
+      link: '#'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - codehilite:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.progressbar
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: 'date'
+
+nav:
+- Home: 'index.md'
+- User Guide: 'user-guide/index.md'
+- Release Notes: 'release-notes/index.md'
