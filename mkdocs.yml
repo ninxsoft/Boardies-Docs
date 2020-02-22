@@ -2,7 +2,7 @@ site_name: 'Boardies Resources'
 site_description: 'All of the resources relating to Boardies'
 site_author: 'Nindi Gill'
 site_url: 'https://dashboardies.com/resources'
-
+dev_addr: '0.0.0.0:8000'
 copyright: 'Copyright &copy; 2020 Boardies Software'
 
 theme:
