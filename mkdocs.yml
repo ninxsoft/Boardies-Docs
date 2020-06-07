@@ -1,43 +1,43 @@
-site_name: 'Boardies Resources'
-site_description: 'All of the resources relating to Boardies'
+site_name: 'Boardies Docs'
+site_description: 'Boardies Docs'
 site_author: 'Nindi Gill'
-site_url: 'https://dashboardies.com/resources'
-dev_addr: '0.0.0.0:8000'
+site_url: 'https://docs.boardies.software'
 copyright: 'Copyright &copy; 2020 Boardies Software'
+dev_addr: '0.0.0.0:8000'
 
 theme:
   name: 'material'
-  language: 'en'
-  palette:
-    primary: 'indigo'
-    accent: 'indigo'
+  favicon: 'images/favicon.png'
+  features:
+    - tabs
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-  logo:
-    icon: 'web'
-  feature:
-    tabs: true
+  language: 'en'
+  logo: 'images/boardies.png'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
 
 extra:
-  manifest: 'manifest.webmanifest'
   social:
-    - type: 'facebook'
-      link: https://www.facebook.com/dashboardies
-    - type: 'instagram'
-      link: 'https://www.instagram.com/_dashboardies/'
-    - type: 'twitter'
-      link: 'https://twitter.com/dashboardies'
-    - type: 'slack'
-      link: '#'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/boardiesoftware'
+    - icon: 'fontawesome/brands/slack'
+      link: 'https://macadmins.slack.com/archives/G015C05692M'
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
   - codehilite:
       linenums: true
-  - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.progressbar
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - toc:
+      permalink: true
 
 plugins:
   - search
@@ -47,6 +47,9 @@ plugins:
       type: 'date'
 
 nav:
-- Home: 'index.md'
-- User Guide: 'user-guide/index.md'
-- Release Notes: 'release-notes/index.md'
+  - Home: 'index.md'
+  - User Guide:
+    - Welcome: 'user-guide/welcome.md'
+  - Release Notes:
+    - What's New: 'release-notes/whats-new.md'
+    - Known Issues: 'release-notes/known-issues.md'
