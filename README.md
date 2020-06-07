@@ -1,2 +1,3 @@
-# Boardies-Resources
-Website generator for Boardies resources
+# Boardies-Docs
+
+Everything you need to know about Boardies documentation
