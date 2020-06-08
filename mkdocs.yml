@@ -3,18 +3,18 @@ site_description: 'Boardies Docs'
 site_author: 'Nindi Gill'
 site_url: 'https://docs.boardies.software'
 copyright: 'Copyright &copy; 2020 Boardies Software'
-dev_addr: '0.0.0.0:8000'
+dev_addr: 'localhost:8000'
 
 theme:
   name: 'material'
-  favicon: 'images/favicon.png'
+  favicon: 'assets/images/favicon.png'
   features:
     - tabs
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   language: 'en'
-  logo: 'images/boardies.png'
+  logo: 'assets/images/boardies.png'
   palette:
     primary: 'indigo'
     accent: 'indigo'
@@ -31,6 +31,9 @@ markdown_extensions:
   - codehilite:
       linenums: true
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.progressbar
   - pymdownx.superfences
   - pymdownx.tasklist:
@@ -49,7 +52,10 @@ plugins:
 nav:
   - Home: 'index.md'
   - User Guide:
-    - Welcome: 'user-guide/welcome.md'
+    - About: 'user-guide/about.md'
+    - Setting up Accounts: 'user-guide/accounts.md'
+    - Text Widgets: 'user-guide/widgets-text.md'
+    - Chart Widgets: 'user-guide/widgets-chart.md'
   - Release Notes:
     - What's New: 'release-notes/whats-new.md'
     - Known Issues: 'release-notes/known-issues.md'

@@ -2,7 +2,7 @@
 
 ## User Guide
 
-Click [here](/user-guide/welcome) to learn how Boardies can create stunning, fully-customisable dashboards, including instructions on common workflows.
+Click [here](/user-guide/about) to learn how Boardies can create stunning, fully-customisable dashboards, including instructions on common workflows.
 
 ## Release Notes
 
