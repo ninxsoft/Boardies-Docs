@@ -2,7 +2,7 @@
 
 Dashboard widgets can be configured to retrieve data from external sources that provide a [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer).
 
-Follow the steps below to setup up accounts and configure custom API integrations.
+Follow the steps below to setup up an example account and configure a custom API integration.
 
 ## Instructions
 

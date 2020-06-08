@@ -33,10 +33,13 @@ Text Widgets allow you to display fully-customisable text, optionally retrieving
     !!! warning
         We are getting output from the API Integration, however it is not in the format we want.
 
-        The output is currently displaying all data about all computers. We only care about the total count.
+        The output is currently displaying data about all computers. We only care about the total count.
 
 1.  In the inspector, ensure **Display as total count** is switched on.
 
     Click **Test** again:
 
     ![Test Total Count](images/text%20test%20total%20count.png)
+
+!!! Success
+    The text widget's API Integration has been configured successfully.

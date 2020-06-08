@@ -1,6 +1,7 @@
 # Known Issues
 
 *   [ ] The Welcome window always appears when the app launches, even when it shouldn't.
+*   [ ] Image Widgets are currently disabled.
 *   [ ] **App performance:**
     *   [ ] Moving / resizing widgets can feel sluggish.
     *   [ ] Pinch to zoom gesture has been disabled as it feels sluggish.
