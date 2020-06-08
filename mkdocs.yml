@@ -24,7 +24,7 @@ extra:
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/boardiesoftware'
     - icon: 'fontawesome/brands/slack'
-      link: 'https://macadmins.slack.com/archives/G015C05692M'
+      link: 'https://macadmins.slack.com/archives/C015CRFLHB3'
 
 markdown_extensions:
   - admonition
