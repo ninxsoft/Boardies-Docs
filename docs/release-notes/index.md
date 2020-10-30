@@ -1,11 +1,11 @@
-# What's New
+# Release Notes
 
 ## Beta 0.2 (Build 200)
 *   Complete codebase rewrite leveraging modern SwiftUI framework
 *   API Integrations can now leverage custom parameters and headers
 *   Switched from web-based charting framework to faster native Mac charting framework
 *   Charts now animate (if enabled)
-*   Image Widgets are now supported
+*   **Image** :camera: Widgets are now supported
     *   Local file
     *   Local folder of images
     *   Image from a URL
@@ -17,7 +17,7 @@
 
 ## Beta 0.1 (Build 100)
 *   Initial Release
-*   Create custom dashboards with **Text** and **Chart** widgets!
+*   Create custom dashboards with **Text** :pencil: and **Chart** :bar_chart: Widgets!
     *   Fully customisable look-and-feel
     *   Text widgets from static text, TXT files or any REST API
     *   Chart widgets from static chart data, CSV files or any REST API

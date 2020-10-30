@@ -52,10 +52,9 @@ plugins:
 nav:
   - Home: 'index.md'
   - User Guide:
-    - About: 'user-guide/about.md'
+    - About: 'user-guide/index.md'
     - Setting up Accounts: 'user-guide/accounts.md'
     - Text Widgets: 'user-guide/widgets-text.md'
     - Chart Widgets: 'user-guide/widgets-chart.md'
-  - Release Notes:
-    - What's New: 'release-notes/whats-new.md'
-    - Known Issues: 'release-notes/known-issues.md'
+  - Release Notes: 'release-notes/index.md'
+  - Known Issues: 'known-issues/index.md'
